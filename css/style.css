@@ -1,0 +1,106 @@
+﻿/*********************************---首页 i_con1 ---***********************/
+.i_con1{ background:#56aaff;}
+.tabs { width:100%; overflow:hidden; margin:0 auto; position:relative;}
+.tabs ul { width: 100%; height: 100% !important;}
+.tabs ul li { width: 100%; height: 100% !important;}
+.tabs ul li img {display: block;}
+.tabs ul li img.bg { bottom: 0; height: 100%; left: 0; position: absolute; width: 100%;}
+.tabs ul.tabs-list, .tabs ul.tabs-list li { width: 100% !important;}
+.tabs ul.tabs-list li .txt{ position: absolute;width: 100%;margin: 0 auto;}
+.leftAni2{position: absolute;width: 40%;top:19%;height: 100%;}
+.sec2_line1{position: absolute;top:0%;left: 0;width: 90%;}
+.sec2_center{position: absolute;top:8%;width: 90%;float: left;left: 10%;}
+.sec2_center span{float: left;display: inline-block;width: 100%;margin: 0;padding: 0;}
+.sec2_center .sec_btn{display: none;}
+.sec2_line2{position: absolute;top:12%;right:22%;width: 90%;}
+.sec2_line2 img{float: right}
+.bottom_ani{position: absolute;bottom: 0;width: 100%;min-width: 1023px;}
+.bottom_open{text-align: center;}
+.bottom_open a{font-size: 20px;color: #fff;display: inline-block;background: #2b4457 url("../images/to_top.png") 98% no-repeat;
+height: 25px;background-size: 24px 15px;line-height: 25px;padding: 6px 34px 6px 6px;}
+.bottom_open a:hover{background: #d37c00 url("../images/to_bottom.png") 98% no-repeat;background-size: 24px 15px;}
+.bottom_open .current{background: #d37c00 url("../images/to_bottom.png") 98% no-repeat;background-size: 24px 15px;}
+.bottom_content{width: 100%;background: #fff;display: none;}
+.bottom_content ul{width: 100%;background: #fff;}
+.bottom_content ul li{float: left;width: 23%;margin: 1%;background:rgba(255,255,255,0.8);position: relative;}
+.leftAni1{position: absolute;width: 60%;top:22%;left:5%;text-align: center;}
+/*************************免费加入按钮*****************************/
+.btn_join{display:inline-block;font-size: 24px;color:#fff;padding: 6px 60px 6px 35px;border-radius: 5px;text-align: center;
+background:#2b4457 url("../images/to_right.png")  80% no-repeat;background-size:20px 24px;}
+.btn_join:hover{background:#d37c00 url("../images/to_right.png")  80% no-repeat;background-size:20px 24px;}
+
+/************************立刻进入学习按钮**************************/
+.btn_learn{display:inline-block;font-size: 24px;color:#fff;padding: 6px 35px 6px 20px;border-radius: 5px;text-align: center;
+    background:#d37c00 url("../images/to_right3.png")  94% no-repeat;background-size:15px 18px;}
+.btn_learn:hover{background:#2b4457 url("../images/to_right3.png")  94% no-repeat;background-size:15px 18px;}
+.sec_btn{display: none;}
+.leftAni1 div{text-align: center;margin-top:15px;}
+.sec2_bottom{position: absolute;right: 0;bottom: 0;width: 60%;height: 100%;}
+.sec2_bottom img{}
+.sec2_bottom_0{position: absolute;width: 40%;left: 30%;bottom:45%;height: 100%;}
+.sec2_bottom .bot_1 img{position: absolute;bottom: 0;right: 0;text-align: right;}
+.sec2_bottom .bot_2 img{position: absolute;margin-right: 40%;text-align: right;bottom:24%;left: 6%;}
+.leftAni3{position: absolute;width: 30%;top:22%;height: 100%;left: 5%;}
+.sec3_center{position: absolute;top:8%;width: 90%;float: left;left: 10%;}
+.sec3_center span{float: left;display: inline-block;width: 100%;margin: 0;padding: 0;}
+.leftAni4{position: absolute;width: 30%;top:22%;height: 100%;left: 5%;}
+.sec4_center{position: absolute;top:8%;width: 90%;float: left;left: 10%;}
+.sec4_center span{float: left;display: inline-block;width: 100%;margin: 0;padding: 0;}
+
+/*动画设置参数*/
+.section2 .sec1_1,.section2 .sec1_2,.section2 .sec1_3,.section2 .sec1_4{position: relative; left: -120%;}
+.section2 .sec1_5{ left: -120%;}
+.section3 .sec3_1,.section3 .sec3_2,.section3 .sec3_3{position: relative; left: -120%;}
+.section4 .sec4_1,.section4 .sec4_2,.section4 .sec4_3{position: relative; left: -120%;}
+
+.btn_search{background:#2b4457 url("../images/btn_search.png") 98% center no-repeat;height:30px;width: 143px;background-size:32px 30px;border-radius: 2px;
+color:#fff;border:none;font-size: 14px;margin-top: 9px;padding:3px 34px 3px 3px;margin-right: 20px;line-height: 30px;}
+.sec3_bottom img{position: absolute;bottom: -120%;width: 55%;right: 2%;}
+.sec4_bottom img{position: absolute;bottom: -120%;width: 55%;right: 2%;}
+.page4_bg{position: absolute;left: 10%;top: 20%;width: 20%;}
+.sec2_bottom .bot_1 img{bottom:-120%;}
+.sec2_bottom .bot_2 img{display: none;}
+.detailMess{display: none;position: absolute;width: 100%;height: 100%;background: #2b4457;top:0;left: 0;}
+.detailMess h5{text-align: left;font-size: 22px;padding: 10px 10px 0px 10px;}
+.detailMess h5 span{border-bottom:3px solid #d37c00;padding-bottom: 2px;}
+.detailMess p{text-align: left;font-size: 18px;padding: 10px;}
+.know_more{position: absolute;bottom: 10px;left: 10px;background:#d37c00 url("../images/to_right2.png") 80% no-repeat;padding: 0px 40px 0px 20px;
+    height: 30px;line-height: 30px;text-align: center;border-radius: 4px;font-size: 16px;}
+.sec5_footer{position: absolute;bottom: 0;left: 0;height: 60px;background: #2b4457;color: #fff;width: 100%;text-align: center;}
+.sec5_footer p{margin-top: 12px;line-height: 20px;font-size: 16px;}
+.sec5_banner{width: 100%;text-align: center;position: absolute;bottom: 60px;}
+.sec5_banner img{}
+
+/*原版css*/
+.sec5_link{width: 80%;top:120px;position: absolute;left: 10%;color: #2b4457;font-size: 18px;}
+.sec5_link .link_left{position: absolute;width: 47%;left: 0;}
+.sec5_link .link_left div{text-align: left;margin-top: 15px;}
+.sec5_link .link_right{position: absolute;width: 47%;right: 0;}
+.sec5_link .link_group{text-align: left;}
+.sec5_link h3{font-size: 20px;}
+.sec5_link .link_group table{width: 100%;margin-top: 5px;}
+.sec5_link .link_list1{font-size: 18px;}
+.sec5_link .link_list1 caption{text-align: left;padding: 5px 0;font-weight: 600;}
+.sec5_link .link_list1 tr td{padding: 5px 0;}
+.sec5_link .link_group .link_list2{margin-top: 15px;}
+.sec5_link .link_list2{font-size: 20px;}
+.sec5_link_small .link_list2 caption{font-size: 20px;}
+.sec5_link .link_list2 tr td{font-weight: 600;}
+/*1200 css*/
+
+/*1024 css*/
+.sec5_link_small{width: 80%;top:100px;position: absolute;left: 10%;color: #2b4457;font-size: 14px;}
+.sec5_link_small .link_left{position: absolute;width: 47%;left: 0;}
+.sec5_link_small .link_left div{text-align: left;margin-top: 5px;}
+.sec5_link_small .link_right{position: absolute;width: 47%;right: 0;}
+.sec5_link_small .link_group{text-align: left;}
+.sec5_link_small h3{font-size: 16px;}
+.sec5_link_small .link_group table{width: 100%;margin-top: 5px;}
+.sec5_link_small .link_list1{font-size: 14px;}
+.sec5_link_small .link_list1 caption{text-align: left;padding: 1px 0;font-weight: 600;font-size: 16px;}
+.sec5_link_small .link_list1 tr td{padding: 1px 0;}
+.sec5_link_small .link_group .link_list2{margin-top: 4px;}
+.sec5_link_small .link_list2{font-size: 16px;}
+.sec5_link_small .link_list2 caption{font-size: 16px;}
+.sec5_link_small .link_list2 tr td{font-weight: 600;height: 28px;line-height: 28px;padding:0;}
+
