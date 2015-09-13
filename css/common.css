@@ -29,9 +29,8 @@ body{font:13px/26px "宋体", Arial, "Lucida Grande", Verdana, Lucida, Helvetica
 .marB12{ margin-bottom:12px;}
 .box_size_setting{box-sizing:border-box;-o-box-sizing:border-box;  -ms-box-sizing:border-box;  -moz-box-sizing:border-box;  -webkit-box-sizing:border-box;}
 /* 链接 */
-a{cursor: pointer;}
-/*a:hover{ color:#004499;}*/
-
+a{text-decoration:none;outline:none;color: #fff;cursor: pointer;}
+a:hover{ color: #fff;}
 /* 颜色 */
 .red{ color:#f00;}
 .green{ color:#29a826;}
@@ -46,28 +45,28 @@ a{cursor: pointer;}
 .nav li{float: left;width:130px;position: relative;transition: .3s;-moz-transition: .3s;
 	-webkit-transition: .3s;background: url('../images/bg_nav.png') 0 0 no-repeat;
 	-o-transition: .3s;color: #2b4457;text-align: center;border-right:1px solid #2b4457;position: relative;}
-.nav .curSelect{background-position: 0px -90px;color: #fff;}
+.nav .curSelect{background-position: 0px -90px;}
+.nav .curSelect a{color: #fff;}
 .nav .last{border-right:0;}
 /*.nav li:hover{background-color: #2B4458}*/
-.nav li a{display: inline-block;width: 100%;height: 100%;}
-.nav li:hover{background-position: 0px -90px;color: #fff;}
+.nav li a{display: inline-block;width: 100%;height: 100%;color: #2b4457;}
+.nav li:hover{background:#2b4457 url('../images/bg_nav.png') 0 -90px no-repeat;}
+.nav li a:hover{color: #fff;}
 .logo{ background:url("../images/logo2.png") center 0 no-repeat; display:block; width: 180px;height: 48px; overflow:hidden; text-indent:-9999px; _background:none;}
 .navSmall{display: block;position: relative;height: 60px;line-height: 60px;font-size: 14px;float: right;margin-left: 240px;
 	margin-right: 20px;background: #f5f5f5;text-align: center;color: #2b4457;}
 .navSmall li{float: left;width:90px;position: relative;border-right:1px solid #2b4457;position: relative;}
-.navSmall .curSelect{color: #fff;background-color: #2B4458;}
+.navSmall .curSelect a{color: #fff;background-color: #2B4458;}
 /*.nav li:hover{background-color: #2B4458}*/
-.navSmall li a{display: inline-block;width: 100%;height: 100%;}
-.navSmall li:hover{color: #fff;background-color: #2B4458;}
+.navSmall li a{display: inline-block;width: 100%;height: 100%;color: #2b4457;}
+.navSmall li a:hover{color: #fff;background-color: #2B4458;}
 .navSmall .last{border-right:0;}
-
-
 .navSmall2{display: block;position: relative;height: 60px;line-height: 60px;font-size: 12px;float: right;margin-left: 240px;
 	margin-right: 20px;background: #f5f5f5;text-align: center;color: #2b4457;}
 .navSmall2 li{float: left;width:70px;position: relative;border-right:1px solid #2b4457;position: relative;}
-.navSmall2 .curSelect{color: #fff;background-color: #2B4458;}
+.navSmall2 .curSelect{color: #fff !important;background-color: #2B4458;}
 /*.nav li:hover{background-color: #2B4458}*/
-.navSmall2 li a{display: inline-block;width: 100%;height: 100%;}
+.navSmall2 li a{display: inline-block;width: 100%;height: 100%;color: #2b4457;}
 .navSmall2 li:hover{color: #fff;background-color: #2B4458;}
 
 
@@ -90,5 +89,12 @@ a{cursor: pointer;}
 .btn_register{font-size: 14px;display: inline-block;padding: 0px 20px;background:#2b4457;color: #fff;margin-right: 10px;border-radius: 4px;}
 .btn_register:hover{background: #d37c00;}
 .btn_login{font-size: 14px;display: inline-block;padding: 0px 20px;color: #000;background: #f5f5f5;border-radius: 4px;}
-.btn_login:hover{background:#2b4457;color: #fff;}
+.btn_login:hover{background:#2b4457;color: #fff !important;}
 
+
+/***********课程培训***********/
+#left1{background: url(../images/course_bg3.jpg)  center center;background-size:cover;}
+#right1{background: url(../images/course_bg4.jpg)  center center;background-size:cover;}
+
+#left2{background: url(../images/course_bg1.jpg)  center center;background-size:cover;}
+#right2{background: url(../images/course_bg2.jpg)  center center;background-size:cover;}

@@ -1,5 +1,4 @@
 ﻿/*********************************---首页 i_con1 ---***********************/
-.i_con1{ background:#56aaff;}
 .tabs { width:100%; overflow:hidden; margin:0 auto; position:relative;}
 .tabs ul { width: 100%; height: 100% !important;}
 .tabs ul li { width: 100%; height: 100% !important;}
@@ -103,4 +102,15 @@ color:#fff;border:none;font-size: 14px;margin-top: 9px;padding:3px 34px 3px 3px;
 .sec5_link_small .link_list2{font-size: 16px;}
 .sec5_link_small .link_list2 caption{font-size: 16px;}
 .sec5_link_small .link_list2 tr td{font-weight: 600;height: 28px;line-height: 28px;padding:0;}
+
+/***********************活动***********************/
+.activity ul{width: 100%;position: relative;}
+.activity ul li{position: relative;float: left;width: 42%;}
+.activity ul li img{width: 100%;}
+.activity ul .act1{}
+.activity ul .act2{width: 44%;margin-left: -10%;}
+
+
+/************在线课程**********/
+.course_tit1,.course_tit2{position: absolute;top:20%;width: 100%;text-align: center;}
 
