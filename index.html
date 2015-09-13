@@ -40,7 +40,11 @@
     </div>
     <div class="header_right clearfix">
         <input type="text" class="btn_search" placeholder="请输入搜索的内容">
+        <?php if(is_user_logged_in()) : ?>
+        <a class="btn_register" href="/my-account/">我的账户</a><a class="btn_login" href="/my-account/edit-account/">编辑账户</a>
+        <?php else : ?>
         <a class="btn_register" href="/my-account/?redirect_to=http%3A%2F%2Fwww.unihse.com%2F">注册</a><a class="btn_login" href="/my-account/?redirect_to=http%3A%2F%2Fwww.unihse.com%2F">登录</a>
+        <?php endif; ?>
     </div>
 </div>
 <ul id="menu">
